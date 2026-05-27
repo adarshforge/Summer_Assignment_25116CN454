@@ -1,6 +1,6 @@
 //                1>           PROGRAM TO CALCULATE THE SUM OF FIRST N NATURAL NUMBERS
 
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int n, sum;
     printf("Enter a number: ");
@@ -12,7 +12,7 @@ int main() {
 
 
 //                2>           PROGRAM TO CALCULATE THE MULTIPLICATION TABLE OF A NUMBER
-#include <stdio.h>
+#include<stdio.h>
 
 int main() {
     int num, i;
@@ -28,7 +28,7 @@ int main() {
 }
 
 //                3>           PROGRAM TO FIND THE FACTORIAL OF A NUMBER
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int n, i;
     long long factorial = 1;
@@ -51,7 +51,7 @@ int main() {
 
 
 
-#include <stdio.h>
+#include<stdio.h>
 int main() {
     int num, count = 0;
     printf("Enter a number: ");
