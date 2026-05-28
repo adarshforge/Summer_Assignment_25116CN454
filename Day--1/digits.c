@@ -1,7 +1,4 @@
-//               4>           PROGRAM TO COUNTS THE  DIGITS IN A NUMBER
-
-
-
+//PROGRAM TO COUNTS THE  DIGITS IN A NUMBER
 #include<stdio.h>
 int main() {
     int num, count = 0;
