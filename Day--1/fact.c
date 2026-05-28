@@ -1,4 +1,4 @@
-//                3>           PROGRAM TO FIND THE FACTORIAL OF A NUMBER
+//PROGRAM TO FIND THE FACTORIAL OF A NUMBER
 #include<stdio.h>
 int main() {
     int n, i;
