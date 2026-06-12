@@ -1,27 +1,26 @@
 #include <iostream>
 using namespace std;
 
-void fibonacci(int n)
+long long factorial(int n)
 {
-    int a = 0, b = 1, c;
+    long long fact = 1;
 
     for (int i = 1; i <= n; i++)
     {
-        cout << a << " ";
-        c = a + b;
-        a = b;
-        b = c;
+        fact = fact * i;
     }
+
+    return fact;
 }
 
 int main()
 {
-    int n;
+    int num;
 
-    cout << "Enter number of terms: ";
-    cin >> n;
+    cout << "Enter a number: ";
+    cin >> num;
 
-    fibonacci(n);
+    cout << "Factorial = " << factorial(num);
 
     return 0;
 }
