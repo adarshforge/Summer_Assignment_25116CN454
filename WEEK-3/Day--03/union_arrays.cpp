@@ -21,8 +21,8 @@ int main() {
     for (int i = 0; i < n2; i++) {
         cin >> arr2[i];
     }
-
-    cout << "Union of arrays: ";
+    
+    cout << "Union of arrays: ";    
     for (int i = 0; i < n1; i++) {
         bool duplicate = false;
 

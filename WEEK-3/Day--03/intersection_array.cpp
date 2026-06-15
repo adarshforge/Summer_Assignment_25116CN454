@@ -12,7 +12,7 @@ int main() {
     for (int i = 0; i < n1; i++) {
         cin >> arr1[i];
     }
-
+    
     cout << "Enter size of second array: ";
     cin >> n2;
     int arr2[n2];
