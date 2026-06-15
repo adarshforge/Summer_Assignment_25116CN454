@@ -6,7 +6,7 @@ int main() {
 
     cout << "Enter value of n: ";
     cin >> n;
-
+    
     int arr[n - 1];
 
     cout << "Enter " << n - 1 << " elements: ";

@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int n;
-
     cout << "Enter size of array: ";
     cin >> n;
 
@@ -32,4 +30,4 @@ int main() {
     }
 
     return 0;
-}
+} 

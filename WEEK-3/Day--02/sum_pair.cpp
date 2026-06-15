@@ -30,7 +30,6 @@ int main() {
         if (found)
             break;
     }
-
     if (!found)
         cout << "No pair found.";
 
