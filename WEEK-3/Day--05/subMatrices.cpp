@@ -23,7 +23,7 @@ int main() {
         }
     }
 
-    // Subtract matrices
+
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             Diff[i][j] = A[i][j] - B[i][j];

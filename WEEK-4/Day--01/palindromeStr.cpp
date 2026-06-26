@@ -9,7 +9,7 @@ int main() {
     cout << "Enter a string: ";
     cin.getline(str, 100);
 
-    
+
     while (str[length] != '\0') {
         length++;
     }
@@ -21,6 +21,7 @@ int main() {
         }
     }
 
+    
     if (palindrome)
         cout << "The string is a palindrome.";
     else

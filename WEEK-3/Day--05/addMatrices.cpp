@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    int rows, cols;
+    int rows,cols;  
+
 
     cout << "Enter number of rows and columns: ";
     cin >> rows >> cols;

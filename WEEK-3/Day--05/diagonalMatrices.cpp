@@ -6,7 +6,8 @@ int main() {
 
     cout << "Enter the order of the square matrix: ";
     cin >> n;
-
+  
+    
     int A[10][10];
 
     cout << "Enter matrix elements:\n";

@@ -24,6 +24,7 @@ int main() {
         }
     }
 
+    
     result[k] = '\0';
 
     printf("String after removing duplicates: %s\n", result);

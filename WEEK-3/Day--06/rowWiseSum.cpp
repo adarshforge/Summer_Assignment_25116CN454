@@ -21,6 +21,7 @@ int main() {
             sum += A[i][j];
         }
         cout << "Sum of Row " << i + 1 << " = " << sum << endl;
+
     }
 
     return 0;
